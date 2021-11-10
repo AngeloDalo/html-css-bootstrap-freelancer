@@ -81,7 +81,10 @@ img {
     background-color:#1abc9c; 
 }
 
-
+.contact-type:hover .form-label,
+.contact-type:active .form-label {
+    font-size: 0.8em;
+}
 /*/contact*/
 
 /*footer*/
