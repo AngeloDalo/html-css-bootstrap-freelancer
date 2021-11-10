@@ -38,7 +38,6 @@ img {
 }
 /*/portfolio*/
 
-
 /*about*/
 .about {
     background-color:#1abc9c;
@@ -46,10 +45,18 @@ img {
 }
 /*/about*/
 
+/*contact*/
+.btn-success {
+    background-color:#1abc9c; 
+}
+/*/contact*/
+
+/*footer*/
 .footer {
     background-color: #3a546d;
     color: white;
 }
+/*footer*/
 
 .copyright {
     background-color: #2c3e50;
