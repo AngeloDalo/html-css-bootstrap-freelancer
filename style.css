@@ -6,7 +6,6 @@
 
 .start {
     background-color:#1abc9c;
-    text-align: center;
     color: white;
 }
 
@@ -16,16 +15,10 @@
 
 .about {
     background-color:#1abc9c;
-    text-align: center;
     color: white;
 }
 
-.center {
-    text-align: center;
-}
-
 .footer {
-    text-align: center;
     background-color: #3a546d;
     color: white;
 }
@@ -33,20 +26,9 @@
 .copyright {
     background-color: #2c3e50;
     color: white;
-    text-align: center;
 } 
 
 .menu {
     display: none;
-}
-
-@media all and (max-width: 576px) {
-    .button {
-        display: none;
-    }
-
-    .menu {
-        display: inline-block;
-    }
 }
 
