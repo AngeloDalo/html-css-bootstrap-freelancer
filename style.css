@@ -25,18 +25,26 @@ html {
 .line-star {
     width: 10%;
     height: 5px;
-    background-color: white;
 }
 /*/start*/
 
+/*portfolio*/
 .portfolio {
     text-align: center;
 }
 
+img {
+    width: 100%;
+}
+/*/portfolio*/
+
+
+/*about*/
 .about {
     background-color:#1abc9c;
     color: white;
 }
+/*/about*/
 
 .footer {
     background-color: #3a546d;
