@@ -10,6 +10,10 @@ html {
     height: 50px;
     color: white;
 }
+
+.list-inline li:hover .hover-color-link{
+    color: #1abc9c;
+}
 /*/nav*/
 
 /*start*/
@@ -33,9 +37,34 @@ html {
     text-align: center;
 }
 
+.square {
+    width: 100%;
+    background-color: #1abc9c; 
+    position: relative;
+}
+
+.plus {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7em;
+    display: none;
+}
+
 img {
     width: 100%;
+    transition-duration: 1s;
 }
+
+.square:hover .plus {
+    display: block;
+}
+
+img:hover {
+    filter: opacity(0);
+}
+
 /*/portfolio*/
 
 /*about*/
