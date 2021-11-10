@@ -41,6 +41,7 @@ html {
     width: 100%;
     background-color: #1abc9c; 
     position: relative;
+    transition-duration: 3s;
 }
 
 .plus {
@@ -50,7 +51,7 @@ html {
     transform: translate(-50%, -50%);
     font-size: 7em;
     filter: opacity(0);
-    transition-duration: 3s;
+    transition-duration: 2s;
 }
 
 img {
@@ -62,7 +63,7 @@ img {
     filter: opacity(1);
 }
 
-img:hover {
+.square:hover img {
     filter: opacity(0);
 }
 
